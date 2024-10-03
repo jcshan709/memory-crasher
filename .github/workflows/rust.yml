@@ -31,5 +31,4 @@ jobs:
       with:
         name: artifact-${{ matrix.os }}
         path: ./target/release
-        warn: Failed uploading artifacts
         retention-days: 90
